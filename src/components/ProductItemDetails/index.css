@@ -1,0 +1,137 @@
+/* Write your CSS here */
+.specificimgpx {
+  height: 550px;
+  width: 380px;
+  margin-right: 40px;
+  border-radius: 10px;
+}
+@media screen and (max-width: 768px) {
+  .specificimgpx {
+    height: 300px;
+    width: 300px;
+
+    border-radius: 10px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .specificcontainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+}
+@media screen and (min-width: 768px) {
+  .desccontainer {
+    width: 30%;
+  }
+}
+.ratingsty {
+  color: #fff;
+  margin-right: 3px;
+}
+.spanele {
+  height: 20px;
+  width: 20px;
+}
+.ratingcontainer {
+  background-color: #3b82f6;
+  padding: 8px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  height: 25px;
+  width: 50px;
+  border-radius: 3px;
+  margin-right: 6px;
+}
+.simiratingcontainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.reviewcontainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+.descriptionpara {
+  line-height: 1.5;
+}
+.plus_minusbtnsty {
+  background-color: transparent;
+  border-style: none;
+}
+.plusminusbuttoncontainer {
+  width: 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.addtocartbutton {
+  color: #fff;
+  background-color: #3b82f6;
+  cursor: pointer;
+  padding: 5px;
+  border-radius: 4px;
+  border-style: none;
+}
+.similarimgpx {
+  height: 350px;
+  width: 350px;
+}
+@media screen and (max-width: 768px) {
+  .similarimgpx {
+    height: 300px;
+    width: 300px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .similarproductcontainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+}
+.lodercontainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.failurecontainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.failureimg {
+  height: 400px;
+  width: 600px;
+}
+
+@media screen and (max-width: 768px) {
+  .failureimg {
+    height: 200px;
+    width: 300px;
+  }
+}
+.continueshopiingbutton {
+  border-style: none;
+  background-color: #0b69ff;
+  cursor: pointer;
+  padding: 5px;
+  border-radius: 3px;
+  color: #fff;
+}
+.mainspcontainer {
+  margin-top: 35px;
+}
