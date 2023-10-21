@@ -18,6 +18,7 @@ const SimilarProductspage = props => {
             style,
             title,
             totalReviews,
+            id,
           } = eachsimi
           return (
             <li key={title}>

@@ -83,7 +83,11 @@ class ProductItemDetails extends Component {
 
   decreaseQuantity = () => {
     const {Quantity} = this.state
-    this.setState(prevState => ({Quantity: prevState.Quantity - 1}))
+    if (Quantity === 1) {
+      this.setState(prevState => ({Quantity: prevState.Quantity}))
+    } else {
+      this.setState(prevState => ({Quantity: prevState.Quantity - 1}))
+    }
   }
 
   renderProductPage = () => {
